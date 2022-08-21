@@ -1,0 +1,56 @@
+body {
+    background-image: url("bgPhoto.jpg");
+    background-size: cover;
+    height: 680px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+  }
+  .main {
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 85px 520px;
+    height: 700px;
+    /* background-image: url("img/lockscreen-bg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main:hover {
+    border: 0px;
+    transition: 0.9s;
+    box-shadow: 5px 1px 99px 1px;
+  }
+  input {
+    border: 2px solid white;
+    border-radius: 10px 10px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    width: 77%;
+    margin: 40px 50px;
+  }
+  #check {
+    /* margin: 1px; */
+    border: 1px solid red;
+  }
+  button {
+    border: 1px solid white;
+    height: 30px;
+    width: 80px;
+    background-color: transparent;
+    margin: 30px 71px;
+    color: white;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: azure;
+    transition: 0.8s;
+    color: black;
+    font-weight: bold;
+  }
+  p {
+    margin-left: 70px;
+    color: red;
+  }
